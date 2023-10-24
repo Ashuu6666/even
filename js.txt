@@ -1,0 +1,8 @@
+// JavaScript for handling event registration
+const registerButtons = document.querySelectorAll(".register-btn");
+
+registerButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        alert("You are registered for this event!");
+    });
+});
